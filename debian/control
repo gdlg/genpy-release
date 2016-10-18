@@ -1,0 +1,12 @@
+Source: ros-minimalist-genpy
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), python-yaml, ros-minimalist-catkin (>= 0.5.78), ros-minimalist-genmsg
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-minimalist-genpy
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-minimalist-genmsg
+Description: Python ROS message and service generators.
